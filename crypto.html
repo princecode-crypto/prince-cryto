@@ -25,7 +25,7 @@
 	<a href="style test.html"> go to style text</a>
 	<style type="text/css">
 		body{
-			background-color: ghostwhite;
+			background-color: lightsteelblue;
 		}
 	</style>
 
@@ -170,19 +170,19 @@
 
 	<!--Forms-->
 	<div>
-	<form action="process.php" method="POST">
+	<form action="webpage.html" method="POST">
 		<label>First Name</label>
-		<input type="text" name="First Name">
+		<input type="text" name="First Name" placeholder="Enter First Name">
 	</div>
 	<br>
 	<div>
 		<label>Last Name</label>
-		<input type="text" name="Last Name">
+		<input type="text" name="Last Name" placeholder="Enter Last Name">
 	</div>
 	<br>
 	<div>
 		<label>Email</label>
-		<input type="Email" name="Email">
+		<input type="Email" name="Email" placeholder="something@email.com">
 	</div>
 	<br>
 	<div>
@@ -201,7 +201,7 @@
 	<br>
 	<div>
 		<label>Age</label>
-		<input type="Number" name="Age">
+		<input type="Number" name="Age" placeholder="00">
 	</div>
 	<br>
 	<div>
@@ -211,10 +211,15 @@
 	<br>
 	<div>
 		<label>Password</label>
-		<input type="password" name="pass1">
+		<input type="password" name="pass1" placeholder="****************">
 	</div>
 	<br>
-	<input type="submit">
+	<div>
+		<label>confirm<br>password</label>
+		<input type="password" name="pass2">
+	</div>
+	<br>
+	<input type="submit" title="submit project">
 	</form>
 	<style type="text/css">
 		form{
